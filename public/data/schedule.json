@@ -1,0 +1,177 @@
+{
+  "schedule": {
+    "kids_teens": {
+      "title": "Kids & Teens",
+      "classes": [
+        {
+          "day": "luni",
+          "dayName": "LUNI",
+          "time": "16:00",
+          "type": "TEENS"
+        },
+        {
+          "day": "marti",
+          "dayName": "MARȚI",
+          "slots": [
+            {
+              "time": "17:00",
+              "type": "Gr. JUVENALS (9-12 ani)"
+            },
+            {
+              "time": "18:00",
+              "type": "Gr. KIDS (6-8 ani)"
+            },
+            {
+              "time": "19:00",
+              "type": "Gr. BABY (3-5 ani)"
+            }
+          ]
+        },
+        {
+          "day": "miercuri",
+          "dayName": "MIERCURI",
+          "slots": [
+            {
+              "time": "17:00",
+              "type": "JUVENALS"
+            },
+            {
+              "time": "18:00",
+              "type": "KIDS"
+            },
+            {
+              "time": "19:00",
+              "type": "BABY"
+            }
+          ]
+        },
+        {
+          "day": "vineri",
+          "dayName": "VINERI",
+          "time": "16:00",
+          "type": "TEENS"
+        },
+        {
+          "day": "sambata",
+          "dayName": "SÂMBĂTĂ",
+          "slots": [
+            {
+              "time": "13:00",
+              "type": "KIDS"
+            },
+            {
+              "time": "14:00",
+              "type": "BABY"
+            }
+          ]
+        }
+      ]
+    },
+    "latino_dance": {
+      "title": "Latino Dance",
+      "classes": [
+        {
+          "day": "luni",
+          "dayName": "LUNI",
+          "slots": [
+            {
+              "time": "19:00",
+              "type": "Latino Women"
+            },
+            {
+              "time": "20:30",
+              "type": "Couple Dance"
+            }
+          ]
+        },
+        {
+          "day": "marti",
+          "dayName": "MARȚI",
+          "time": "09:00",
+          "type": "Morning Latino & Cardio"
+        },
+        {
+          "day": "joi",
+          "dayName": "JOI",
+          "time": "09:00",
+          "type": "Morning Latino & Cardio"
+        },
+        {
+          "day": "vineri",
+          "dayName": "VINERI",
+          "slots": [
+            {
+              "time": "19:00",
+              "type": "Latino Women"
+            },
+            {
+              "time": "20:30",
+              "type": "Couple Dance"
+            }
+          ]
+        }
+      ]
+    },
+    "pilates_stretching": {
+      "title": "Pilates / Stretching",
+      "classes": [
+        {
+          "day": "marti",
+          "dayName": "MARȚI",
+          "time": "20:00",
+          "type": "Evening PILATES"
+        },
+        {
+          "day": "miercuri",
+          "dayName": "MIERCURI",
+          "time": "08:30",
+          "type": "Morning PILATES"
+        },
+        {
+          "day": "joi",
+          "dayName": "JOI",
+          "time": "20:00",
+          "type": "Evening STRETCH"
+        },
+        {
+          "day": "vineri",
+          "dayName": "VINERI",
+          "time": "08:30",
+          "type": "Morning PILATES"
+        },
+        {
+          "day": "sambata",
+          "dayName": "SÂMBĂTĂ",
+          "slots": [
+            {
+              "time": "08:30",
+              "type": "Morning PILATES"
+            },
+            {
+              "time": "17:00",
+              "type": "PILATES Sculpt"
+            },
+            {
+              "time": "18:00",
+              "type": "Stretching"
+            }
+          ]
+        },
+        {
+          "day": "duminica",
+          "dayName": "DUMINICĂ",
+          "slots": [
+            {
+              "time": "09:00",
+              "type": "Morning STRETCH"
+            },
+            {
+              "time": "10:30",
+              "type": "BARRE (cu însciere prealabilă)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
