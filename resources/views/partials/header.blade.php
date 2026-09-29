@@ -1,7 +1,7 @@
 <header class="header">
     <div class="header__container">
         <a class="header__brand" href="{{ route('home') }}">
-            <img src="{{ asset('images/logo.png') }}" alt="ILyria Dance Studio" class="header__logo">
+            <img src="{{ asset('images/logo.png') }}" alt="ILYRIA Dance Studio" class="header__logo">
         </a>
 
         <div class="header__nav-wrapper">

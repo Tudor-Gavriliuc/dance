@@ -221,6 +221,7 @@ address {
 }
 
 .header__actions {
+        order: 2;
     display: flex;
     align-items: center;
     gap: 18px;
@@ -1015,6 +1016,12 @@ address {
     .header__container {
         padding: 0 8px;
         gap: 12px;
+        justify-content: space-between;
+    }
+
+    .header__brand {
+        order: 1;
+        margin-right: 0;
     }
 
     .header__logo {
@@ -1022,9 +1029,32 @@ address {
     }
 
     .header__nav-wrapper {
-        margin: auto;
+        order: 3;
+        margin: 0;
         position: relative;
-        order: -1;
+    }
+
+    .header__actions {
+        order: 2;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .header__langs {
+        display: flex;
+        gap: 8px;
+    }
+
+    .header__lang-btn {
+        font-size: 11px;
+        padding: 4px 6px;
+        color: #d7ccc4;
+        transition: color 0.3s ease;
+    }
+
+    .header__lang-btn.active {
+        color: white;
     }
 
     .header__nav-toggle {
@@ -1035,7 +1065,7 @@ address {
         display: none;
         position: absolute;
         top: 110%;
-        left: -20px;
+        right: 0;
         flex-direction: column;
         background: var(--color-wine);
         padding: 20px;

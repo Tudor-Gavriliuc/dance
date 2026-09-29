@@ -134,19 +134,19 @@
         <div class="trainers__grid">
             <article class="trainer-card">
                 <div class="trainer-card__photo trainer-card__photo--1"></div>
-                <h3 class="trainer-card__name">Elena Nora</h3>
+                <h3 class="trainer-card__name">Iulia Rotaru</h3>
                 <p class="trainer-card__specialty">Dans sportiv · PRO & Beginners</p>
             </article>
             
             <article class="trainer-card">
                 <div class="trainer-card__photo trainer-card__photo--2"></div>
-                <h3 class="trainer-card__name">Sophia Mayas</h3>
+                <h3 class="trainer-card__name">Iulia Rotaru</h3>
                 <p class="trainer-card__specialty">Copii · Adolescenți</p>
             </article>
             
             <article class="trainer-card">
                 <div class="trainer-card__photo trainer-card__photo--3"></div>
-                <h3 class="trainer-card__name">Viviana Sorin</h3>
+                <h3 class="trainer-card__name">Iulia Rotaru</h3>
                 <p class="trainer-card__specialty">Adulți · Lecții individuale</p>
             </article>
         </div>
@@ -164,13 +164,6 @@
                 <iframe src="https://maps.google.com/maps?q=Str.+Nicolae+Dimo+86,+Durlești,+Moldova&hl=en&z=16&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             
-            <div class="studio__map-container">
-                <h3 class="studio__map-title">Waze Navigation</h3>
-                <a href="https://waze.com/go?q=Nicolae%20Dimo%2086%2C%20Durlesti%2C%20Moldova" target="_blank" rel="noopener noreferrer" class="studio__waze-link">
-                    <img src="{{ asset('images/waze-map.jpeg') }}" alt="Waze Navigation" class="studio__waze-image">
-                    <div class="studio__waze-overlay"></div>
-                </a>
-            </div>
             </div>
         </div>
     </div>

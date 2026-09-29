@@ -2,7 +2,7 @@
     <div class="footer__container">
         <!-- Column 1: Logo & Tagline -->
         <div class="footer__col footer__col--logo">
-            <img src="{{ asset('images/logo.png') }}" alt="ILyria" class="footer__logo">
+            <img src="{{ asset('images/logo.png') }}" alt="ILYRIA" class="footer__logo">
             <p class="footer__tagline" data-i18n="final">O altă lume începe cu primul pas.</p>
         </div>
         
@@ -34,7 +34,7 @@
     </div>
     
     <div class="footer__bottom">
-        <p class="footer__copyright">&copy; 2026 ILyria Dance Studio. Toate drepturile rezervate.</p>
+        <p class="footer__copyright">&copy; 2026 ILYRIA Dance Studio. Toate drepturile rezervate.</p>
     </div>
 </footer>
     </div>
