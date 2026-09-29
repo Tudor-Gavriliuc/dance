@@ -1,13 +1,15 @@
 FROM php:8.4-cli
 
-# Install system dependencies
 RUN apt-get update && apt-get install -y \
+    curl \
     git \
     unzip \
     libsqlite3-dev \
     libpng-dev \
     libonig-dev \
     libxml2-dev \
+    && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs \
     && docker-php-ext-install \
     pdo_sqlite \
     mbstring \
@@ -25,6 +27,9 @@ COPY . .
 
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
+
+RUN npm ci
+RUN npm run build
 
 # Laravel permissions
 RUN mkdir -p storage/framework/cache \
